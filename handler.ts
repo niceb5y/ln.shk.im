@@ -31,7 +31,7 @@ export const link: APIGatewayProxyHandler = async event => {
     return {
       statusCode: 301,
       headers: {
-        Location: result.Item['location']
+        Location: decodeURI(result.Item['location'])
       },
       body: ''
     }

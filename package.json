@@ -8,17 +8,17 @@
     "deploy": "serverless deploy --stage production"
   },
   "dependencies": {
-    "aws-sdk": "^2.653.0"
+    "aws-sdk": "^2.709.0"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.47",
-    "@types/node": "^13.11.0",
-    "serverless-dotenv-plugin": "^2.3.2",
-    "serverless-prune-plugin": "^1.4.2",
-    "serverless-webpack": "^5.3.1",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3",
-    "webpack": "^4.42.1"
+    "@types/aws-lambda": "^8.10.57",
+    "@types/node": "^14.0.14",
+    "serverless-dotenv-plugin": "^2.4.2",
+    "serverless-prune-plugin": "^1.4.3",
+    "serverless-webpack": "^5.3.2",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0"
   },
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
   "license": "MIT"

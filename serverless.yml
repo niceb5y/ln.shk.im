@@ -1,5 +1,4 @@
-service:
-  name: shk-ln
+service: shk-ln
 
 plugins:
   - serverless-webpack
@@ -8,7 +7,7 @@ plugins:
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs16.x
 
   region: ap-northeast-2
   memorySize: 128
